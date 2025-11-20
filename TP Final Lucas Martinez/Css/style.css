@@ -1,0 +1,375 @@
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700 ;
+    font-style: normal;
+}
+
+body{
+    background-color: rgb(black, white, whitesmoke), rgb(119,119,119), rgb(153,153,153), rgb(0,0,0) rgb(238,238,238), rgb(0,0,0), rgb(61,61,61);
+    background: linear-gradient(rgb(120, 120, 120), rgb(181, 181, 181));
+}
+
+main.Imagenes { 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 30px; 
+    padding: 20px 0;
+    align-items: stretch; 
+}
+
+.Imagenes > div { 
+    background-color: rgb(119,119,119), rgb(153,153,153), rgb(238,238,238) rgb(120, 120, 120), rgb(181, 181, 181);  
+    border-radius: 15px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    width: 300px; 
+    
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.image-frame {
+    background-color: white; 
+    border-radius: 10px; 
+    margin-bottom: 20px; 
+    width: 100%; 
+    padding: 20px; 
+    box-sizing: border-box;     
+    height: 180px; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+}
+
+.image-frame img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 5px; 
+}
+
+.Imagenes > div h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 5px;
+    text-align: left; 
+    padding: 0;
+}
+
+.Imagenes > div p {
+    font-size: 15px;
+    color: #3d3d3d; 
+    margin-bottom: 2px;
+    text-align: left; 
+    line-height: 1.4;
+    padding: 0;
+}
+
+
+
+h1{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    color: black;
+}
+
+h2{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    color: black;
+}
+
+p{
+    font-family: "Inter", sans-serif;
+    color: rgb(61,61,61);
+    text-align: center;
+}
+
+main{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+
+inicio{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    justify-content: center; 
+}
+
+.Boton{
+    background: black;
+    color: white;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+.navbar {
+    width: 100%;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom, #6c6c6c, #4d4d4d);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+  
+.btn-contacto {
+    background: black;
+    color: white;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+  
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px;
+    width: 100%;
+}
+
+.precios {
+    background: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 18px;
+    font-family: "Inter", sans-serif;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.precios p {
+    text-align: left;
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.precios h2 {
+    text-align: left;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 20px;
+}
+
+.precios ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.precios ul li {
+    color: #606060;
+    font-size: 14px;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.precios ul li::before {
+    content: "✓";
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.Button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.Button button {
+    width: 90%;
+    padding: 12px;
+    border-radius: 12px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.precios:first-child .Button button {
+    background-color: #e8e8e8;
+    color: black;
+}
+
+
+.precios:last-child .Button button {
+    background-color: black;
+    color: white;
+}
+
+svg{
+    color: rgb(153,153,153);
+    width: 16px;
+    height: 16px;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.caja{
+    position: relative;
+    width: 960;
+    height: 600;
+    padding: 0px;
+    gap: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;    
+}
+
+.imagen{
+    position: relative;
+    background-color: rgb(245,245,245);
+    border-radius: 3%;
+    width: 960px;
+    height: 600px;
+}
+
+.prueba{
+    position: relative;
+    width: 960;
+    height: 891,6;
+    max-width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    flex-wrap: nowrap;
+
+}
+
+.cajita p {
+    text-align: left;
+    padding: 0 20px;
+    line-height: 0.5;
+}
+.cajita h2 {
+    text-align: left;
+    padding-left: 20px;
+    line-height: 1.1;
+}
+
+.cajita {
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    padding: 20px;                
+}
+
+
+footer {
+    background-color: #666666; 
+    padding: 40px 0; 
+    width: 100%;
+}
+
+.footer-divider {
+    border-top: 1px solid white; 
+    width: 90%; 
+    margin: 0 auto 30px auto; 
+}
+
+.footer-content {
+    display: flex;
+    justify-content: flex-end; 
+    width: 90%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.footer-columns {
+    display: flex;
+    gap: 80px; 
+}
+
+.columna h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 15px;
+    text-align: left; 
+}
+
+.columna ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.columna li {
+    margin-bottom: 5px;
+}
+
+.columna a {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #cccccc; 
+    text-decoration: none; 
+    text-align: left;
+}
+
+.columna a:hover {
+    color: white; 
+}
+
+final{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    justify-content: center; 
+}
+
+.btn-contactar {
+    background: black;
+    color: white;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
