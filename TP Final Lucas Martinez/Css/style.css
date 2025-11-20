@@ -373,3 +373,13 @@ final{
     font-size: 12px;
     cursor: pointer;
 }
+
+.imagen{
+    background-image: url("/img/servicios-reparaciones.jpg");
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    width: 960px;
+    height: 600px;
+}
